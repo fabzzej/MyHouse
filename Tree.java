@@ -40,26 +40,27 @@ public class Tree
     {
         // put your code here
         upperlayer.makeVisible();
-        upperlayer.changeSize(70,100);
+        upperlayer.changeSize(56,80);
         //translate horizontally and veitically by x and y
         upperlayer.moveHorizontal(x);
         upperlayer.moveVertical(y);
         
         middlelayer.makeVisible();
-        middlelayer.changeSize(70,100);
-        middlelayer.moveVertical(40);
+        middlelayer.changeSize(56,80);
+        middlelayer.moveVertical(32);
         middlelayer.moveHorizontal(x);
         middlelayer.moveVertical(y);
         
         bottomlayer.makeVisible();
-        bottomlayer.changeSize(70,100);
-        bottomlayer.moveVertical(80);
+        bottomlayer.changeSize(56,80);
+        bottomlayer.moveVertical(64);
         bottomlayer.moveHorizontal(x);
         bottomlayer.moveVertical(y);
         
         trunk.makeVisible();
         trunk.changeColor("brown");
-        trunk.moveVertical(115);
+        trunk.changeSize(24);
+        trunk.moveVertical(85);
         trunk.moveHorizontal(-25);
         trunk.moveHorizontal(x);
         trunk.moveVertical(y);
